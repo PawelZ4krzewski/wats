@@ -48,6 +48,10 @@ kotlin {
                 implementation("dev.icerock.moko:mvvm-compose:0.16.1")
                 implementation("dev.icerock.moko:mvvm-flow:0.16.1")
                 implementation("dev.icerock.moko:mvvm-flow-compose:0.16.1")
+
+                implementation("dev.gitlive:firebase-auth:1.10.0")
+                implementation("dev.gitlive:firebase-firestore:1.10.0")
+
             }
         }
         val commonTest by getting {
@@ -61,8 +65,8 @@ kotlin {
                 implementation("androidx.appcompat:appcompat:1.6.1")
                 implementation("androidx.activity:activity-compose:1.7.2")
 
-                implementation("com.google.firebase:firebase-auth-ktx:21.1.0")
-                implementation("com.google.firebase:firebase-storage-ktx:20.1.0")
+                implementation("com.google.firebase:firebase-auth-ktx:22.1.2")
+                implementation("com.google.firebase:firebase-storage-ktx:20.2.1")
             }
         }
         val androidUnitTest by getting
