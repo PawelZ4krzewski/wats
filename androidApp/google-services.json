@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "61501897405",
+    "project_id": "wats-similarity",
+    "storage_bucket": "wats-similarity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61501897405:android:524830a242f6fac9b195d4",
+        "android_client_info": {
+          "package_name": "com.example.wats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_TxM5J7fePn-5y1zgTDMU3fTuYZX60iA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

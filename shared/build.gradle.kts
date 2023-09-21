@@ -60,6 +60,9 @@ kotlin {
                 implementation("com.squareup.sqldelight:android-driver:1.5.5")
                 implementation("androidx.appcompat:appcompat:1.6.1")
                 implementation("androidx.activity:activity-compose:1.7.2")
+
+                implementation("com.google.firebase:firebase-auth-ktx:21.1.0")
+                implementation("com.google.firebase:firebase-storage-ktx:20.1.0")
             }
         }
         val androidUnitTest by getting

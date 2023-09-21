@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     kotlin("android")
     id("org.jetbrains.compose")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -47,4 +48,7 @@ dependencies {
     implementation("androidx.compose.foundation:foundation:1.4.0")
     implementation("androidx.compose.material:material:1.4.0")
     implementation("androidx.activity:activity-compose:1.7.0")
+
+    implementation("com.google.firebase:firebase-auth-ktx:21.1.0")
+    implementation("com.google.firebase:firebase-database-ktx:20.1.0")
 }
